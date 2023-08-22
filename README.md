@@ -24,6 +24,7 @@ To interact with the chatbot, navigate to the `/src` folder and run:
 ## Demo
 
 ### Training:
-
+![training gif demo](https://github.com/nicolasleao/python-chatbot/blob/main/demo/training.gif?raw=true)
 
 ### Chatting:
+![chatting gif demo](https://github.com/nicolasleao/python-chatbot/blob/main/demo/chatting.gif?raw=true)
