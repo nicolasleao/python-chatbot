@@ -1,0 +1,37 @@
+{
+        "intents": [
+                {
+                        "tag": "primeira_interacao",
+                        "patterns": ["Oi", "Olá", "Bom dia", "Boa tarde", "Boa noite", "Tudo bem?", "Como vai?", "Como está?", "Ola", "Como esta?", "Opa"],
+                        "responses": ["Olá, como posso ajudar?", "Oi, precisa de ajuda?", "Olá, obrigado pelo contato, como posso te ajudar?", "Oi, posso ajudar?"],
+                        "context_set": ""
+                },
+                {
+                        "tag": "adeus",
+                        "patterns": ["Tchau", "Até mais", "Até logo", "Até breve", "Até amanhã", "Até a próxima", "Adeus", "Falou", "Xau", "Fechou", "Ate a proxima"],
+                        "responses": ["Até mais!", "Até logo!", "Até breve!", "Até logo, estou aqui caso precise de ajuda!", "Até a próxima, obrigado pela visita!"]
+                },
+                {
+                        "tag": "obrigado",
+                        "patterns": ["Obrigado", "Muito obrigado", "Isso foi útil", "Obrigado pela ajuda", "Pronto, resolvido", "Valeu", "Vlw"],
+                        "responses": ["Fico feliz em ajudar!", "Sempre que precisar, estou aqui!", "Disponha!", "Por nada!"]
+                },
+                {
+                        "tag": "alugar_imovel",
+                        "patterns": ["Quero alugar um imóvel", "Quero alugar um apartamento", "Quero alugar uma casa", "Quero alugar um imóvel comercial", "Quero alugar um imóvel residencial", "Quero alugar um imóvel para temporada", "Quero alugar um imóvel para morar", "Quero alugar um imóvel para trabalhar", "Quero alugar um imóvel para passar as férias", "Quero alugar um imóvel para passar o final de semana", "Quero alugar um imóvel para passar o verão", "Quero alugar um imóvel para passar o inverno", "Quero alugar um imóvel para passar o carnaval", "Quero alugar um imóvel para passar o natal", "Quero alugar um imóvel para passar o ano novo", "Quero alugar um imóvel para passar o feriado", "Quero alugar um imóvel para passar o dia", "Quero alugar um imóvel para passar o fim de semana", "Quero alugar um imóvel para passar o dia das crianças", "Quero alugar um imóvel para passar o dia dos pais", "Quero alugar um imóvel para passar o dia das mães"],
+                        "responses": ["Ok, vou te ajudar a encontrar o local ideal. Qual é a faixa de preço que você procura?"],
+                        "context_set": "alugar_imovel"
+                },
+                {
+                        "tag": "comprar_imovel",
+                        "patterns": ["Quero comprar um imóvel", "Quero comprar um apartamento", "Quero comprar uma casa", "Quero comprar um imóvel comercial", "Quero comprar um imóvel residencial", "Quero comprar um imóvel para morar", "Quero comprar um imóvel para trabalhar", "Quero comprar um imóvel para passar as férias", "Quero comprar um imóvel para passar o final de semana", "Quero comprar um imóvel para passar o verão", "Quero comprar um imóvel para passar o inverno", "Quero comprar um imóvel para passar o carnaval", "Quero comprar um imóvel para passar o natal", "Quero comprar um imóvel para passar o ano novo", "Quero comprar um imóvel para passar o feriado", "Quero comprar um imóvel para passar o dia", "Quero comprar um imóvel para passar o fim de semana", "Quero comprar um imóvel para passar o dia das crianças", "Quero comprar um imóvel para passar o dia dos pais", "Quero comprar um imóvel para passar o dia das mães"],
+                        "responses": ["Okay, vou te ajudar a encontrar o local ideal. Qual é a faixa de preço que você procura?"],
+                        "context_set": "comprar_imovel"
+                },
+                {
+                        "tag": "financiamento",
+                        "patterns": ["Vocês oferecem financiamento?", "Como faço pra financiar um imóvel", "queria orçar um financiamento", "Como financio com você?", "Posso parcelar esse AP?", "Como faço pra financiar a casa?", "Como eu financio o AP?", "Tem como financiar?", "Gostaria de financiar este imóvel", "Quais as opções para financiamento"],
+                        "responses": ["Sim, trabalhamos com financiamento. Qual é a faixa de preço que você procura?"]
+                }
+        ]
+}
